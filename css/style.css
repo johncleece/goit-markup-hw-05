@@ -173,12 +173,15 @@ a {
     color: var(--iris-color);
 }
 
-.link-active::before {
+.link-active::before,
+.link-active::after {
     color: var(--iris-color);
+    content: "";
 }
 
 .link-active::after {
-    content: '';
+    background-image: url("./images/underline.svg");
+
 }
 
 .underline {

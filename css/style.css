@@ -624,6 +624,11 @@ a {
     border-radius: 50%;
 }
 
+.close:hover,
+.close:focus {
+    background-color: var(--ocean-color);
+    color: var(--white-color);
+}
 
 .close-icon {
     display: flex;
